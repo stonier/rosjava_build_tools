@@ -11,6 +11,7 @@ d = generate_distutils_setup(
              'scripts/catkin_create_android_library_project',
              'scripts/catkin_create_rosjava_pkg',
              'scripts/catkin_create_rosjava_project',
+             'scripts/catkin_create_rosjava_library_project',
              'scripts/catkin_create_rosjava_msg_project',
             ],
     package_data = {'rosjava_build_tools': [
@@ -19,6 +20,7 @@ d = generate_distutils_setup(
            'templates/rosjava_msg_project/*',
            'templates/rosjava_package/*',
            'templates/rosjava_project/*',
+           'templates/rosjava_library_project/*',
            'templates/init_repo/*',
         ]},
     requires=['rospy' 'rospkg']
